@@ -1,0 +1,61 @@
+
+.container {
+    margin: auto;
+    max-width: 1800px;
+    height: auto;
+    font-size: 20px;
+}
+
+.header {
+    text-align: center;
+    margin: 30px 0 100px;
+}
+
+.header-blocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+
+.project-block {
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 430px;
+    height: auto;
+    box-shadow: 6px 5px 20px 2px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.project-block:hover {
+    top: -10px;
+}
+
+
+.back {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+}
+
+.linkWork {
+    text-decoration: none;
+    color: white;
+}
+
+.linkWork:last-child {
+    text-decoration: underline;
+}
+
+.linkWork:hover {
+    opacity: 0.6;
+    transition: 0.5s ease;
+}
